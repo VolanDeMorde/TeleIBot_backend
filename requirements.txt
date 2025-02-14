@@ -1,6 +1,6 @@
-gunicorn==21.2.0  # Add this line
-flask==3.0.0
-rembg==2.0.38
-pillow==10.0.1
-requests==2.31.0
-python-dotenv==1.0.0
+gunicorn
+flask
+rembg
+pillow
+requests
+python-dotenv
