@@ -4,7 +4,6 @@ from PIL import Image
 import requests
 import io
 import os
-const port = process.env.PORT || 5000;
 
 app = Flask(__name__)
 
