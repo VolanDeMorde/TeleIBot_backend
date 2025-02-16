@@ -100,5 +100,5 @@ def create_sticker():
         return jsonify({"error": "Image processing failed"}), 500
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Render requires this
-    app.run(host='0.0.0.0', port=port)
+    port = int(os.environ.get("PORT", 5000))  # Render's PORT takes priority
+    app.run(host='0.0.0.0', port=port)  # Bind to all interfaces
