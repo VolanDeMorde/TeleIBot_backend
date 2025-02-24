@@ -7,3 +7,4 @@ python-dotenv
 gunicorn
 onnxruntime
 opencv-python-headless
+python-telegram-bot==20.3
